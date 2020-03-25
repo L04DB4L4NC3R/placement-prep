@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-void show(int*);
+void show(int*, int);
 bool custom_comparator(int, int);
 class custom_type {
   public:
@@ -12,19 +12,19 @@ bool custom_type_comparator(custom_type, custom_type);
 
 void sorting_and_searching() {
   int a[10] = {78,12,324,546,42,123,546,7568,234,1};
-  show(a);
+  show(a, 10);
 
   // sort in ascending order
   sort(a, a+10);
-  show(a);
+  show(a, 10);
 
   // sort in descending order
   sort(a, a+10, greater<int>());
-  show(a);
+  show(a, 10);
   
   // using a custom comparator
   sort(a, a+10, custom_comparator);
-  show(a);
+  show(a, 10);
 
   // sorting in a custom type
   custom_type t[3] = {{"Angad", 20}, {"Dhruv", 27}, {"Radhika", 20}};
@@ -42,9 +42,9 @@ void sorting_and_searching() {
 }
 
 
-void show(int *arr) {
+void show(int *arr, int n) {
   printf("Array is: ");
-  for(int i = 0; arr[i] != '\0'; ++i) {
+  for(int i = 0; i < n; ++i) {
     printf("%d ", *(arr + i));
   }
   printf("\n");
