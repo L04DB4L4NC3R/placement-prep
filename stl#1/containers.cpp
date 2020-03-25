@@ -1,7 +1,9 @@
 #include <iostream>
 #include <vector>
+#include <deque>
 using namespace std;
 
+// vectors
 void vectors() {
   vector<int> v;
 
@@ -59,6 +61,23 @@ void vectors() {
   v.clear();
 }
 
+
+// deque
+void deques() {
+  printf("\n");
+  deque<string> d;
+  d.push_back("Sharma");
+  d.push_front("Angad");
+
+  deque<string>::iterator itr;
+  for(itr = d.begin(); itr != d.end(); ++itr) {
+    cout << *itr << " ";
+  }
+  d.pop_front();
+  d.pop_back();
+}
+
 void containers() {
   vectors();
+  deques();
 }
