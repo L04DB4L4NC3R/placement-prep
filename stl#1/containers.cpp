@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <deque>
+#include <map>
 using namespace std;
 
 // vectors
@@ -77,7 +78,23 @@ void deques() {
   d.pop_back();
 }
 
+// maps
+void maps() {
+  cout << endl;
+  map<int, string> m;
+  m.insert(pair<int, string>(0, "Angad"));
+  m.insert(pair<int, string>(1, "Sharma"));
+  map<int, string>::iterator itr;
+  for(itr = m.begin(); itr != m.end(); ++itr) {
+    cout << "KEY: " << itr->first << endl;
+    cout << "VALUE: " << itr->second << endl;
+  }
+
+  // multimap<int, string> mm;
+}
+
 void containers() {
   vectors();
   deques();
+  maps();
 }
