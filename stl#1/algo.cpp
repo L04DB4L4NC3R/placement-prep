@@ -10,7 +10,7 @@ class custom_type {
 };
 bool custom_type_comparator(custom_type, custom_type);
 
-int main() {
+void sorting_and_searching() {
   int a[10] = {78,12,324,546,42,123,546,7568,234,1};
   show(a);
 
@@ -28,10 +28,17 @@ int main() {
 
   // sorting in a custom type
   custom_type t[3] = {{"Angad", 20}, {"Dhruv", 27}, {"Radhika", 20}};
-  cout << t[0].age << t[1].age << t[2].age << endl;
   sort(t, t+3, custom_type_comparator);
-  cout << t[0].age << t[1].age << t[2].age << endl;
-  return 0;
+  printf("%d %d %d\n", t[0].age, t[1].age, t[2].age);
+  printf("%d %d %d\n", t[0].age, t[1].age, t[2].age);
+
+  // binary search
+  sort(a, a+10);
+  if (binary_search(a, a + 10, 1)) {
+    printf("Found value");
+  } else {
+    printf("Not found value");
+  }
 }
 
 
