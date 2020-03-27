@@ -24,6 +24,7 @@ int main() {
 	        arr.push_back(elem);
 	    }
 	    scanf("%d", &k);
+      // greater<int>() comparator can be used for finding the k-largest element
 	    nth_element(arr.begin(), arr.begin() + k-1, arr.end());
 	    printf("%d\n", arr[k-1]);
 	    arr.clear();
