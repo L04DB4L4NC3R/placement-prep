@@ -1,6 +1,7 @@
 #include "./stl#1/searchsort.cpp"
 #include "./stl#1/reverse_and_maxmin.cpp"
 #include "./stl#1/containers.cpp"
+#include "./stl#1/array_algo.cpp"
 #include <iostream>
 
 int main() {
@@ -17,6 +18,11 @@ int main() {
   printf("\x1B[31mCONTAINERS\033[0m\t\t\n");
   printf("\x1B[31m----------------------\033[0m\t\t\n");
   containers();
+  printf("\n\x1B[31m----------------------\033[0m\t\t\n");
+
+  printf("\x1B[31mARRAY ALGORITHMS\033[0m\t\t\n");
+  printf("\x1B[31m----------------------\033[0m\t\t\n");
+  array_algo();
   printf("\n\x1B[31m----------------------\033[0m\t\t\n");
 
   return 0;

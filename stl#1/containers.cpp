@@ -28,7 +28,6 @@ void vectors() {
   // for(vector<int>const_reverse_iterator i = v.crbegin(); i != v.crend(); ++i) {
     // printf("%d ", *i);
   // }
-  printf("\n");
 
   if(!v.empty()) {
     printf("Vector is not empty\n");
