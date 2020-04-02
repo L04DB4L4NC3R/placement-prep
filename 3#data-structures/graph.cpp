@@ -12,6 +12,7 @@ class Graph {
   // 1 -> 0 -> 2
   // 2 -> 0 -> 1
   list<int> *adj;
+  void DFSUtil(int v, bool visited[]);
 
   public:
   Graph(int v);
@@ -37,6 +38,30 @@ void Graph::addEdge(int v, int w) {
 // when you dequeue the vertex, you add its neighbours
 // in the queue
 void Graph::BFS(int source) {
+  bool *visited = new bool[v];
+  for(int i = 0; i < v; ++i) {
+    visited[i] = false;
+  }
+
+  list<int> queue;
+  visited[source] = true;
+  queue.push_back(source);
+  list<int>::iterator itr;
+
+  while(!queue.empty()) {
+    // pop from queue, print, then push all
+    // adjacent things in
+    source = queue.front();
+    cout << source << " ";
+    queue.pop_front();
+
+    for(itr = adj[source].begin(); itr != adj[source].end(); ++itr) {
+      if (!visited[*itr]) {
+        visited[*itr] = true;
+        queue.push_back(*itr);
+      }
+    }
+  }
 }
 
 // data structure used is STACK
@@ -45,6 +70,28 @@ void Graph::BFS(int source) {
 // when we do, we need to pop it and push another 
 // unvisited node in the stack
 void Graph::DFS(int source) {
+  bool *visited = new bool[v];
+  for(int i = 0; i < v; ++i) {
+    visited[i] = false;
+  }
+  for(int i = 0; i < v; ++i) {
+    if(visited[i] == false) 
+      DFSUtil(i, visited);
+  }
+}
+
+
+// the recursive utility function for DFS
+void Graph::DFSUtil(int v, bool visited[]) {
+  visited[v] = true;
+  cout << v << " ";
+  list<int>::iterator itr;
+
+  for(itr = adj[v].begin(); itr != adj[v].end(); ++itr) {
+    if (!visited[*itr]) {
+      DFSUtil(*itr, visited);
+    }
+  }
 }
 
 void graphs() {
@@ -57,5 +104,6 @@ void graphs() {
   g.addEdge(3, 3);
 
   g.BFS(2);
+  printf("\n");
   g.DFS(2);
 }
