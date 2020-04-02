@@ -1,6 +1,5 @@
 #include <iostream>
-#include <vector>
 using namespace std;
 
-void binary(vector<int>::iterator, vector<int>::iterator) {
+void binary(int arr[], int n) {
 }
