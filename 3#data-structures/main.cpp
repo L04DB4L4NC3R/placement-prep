@@ -1,7 +1,6 @@
 #include <iostream>
 #include "./3#data-structures/linked_list.cpp"
 #include "./3#data-structures/stack.cpp"
-#include "./3#data-structures/binary_search_tree.cpp"
 #include "./3#data-structures/tree.cpp"
 #include "./3#data-structures/heap.cpp"
 #include "./3#data-structures/hash_table.cpp"
@@ -23,12 +22,6 @@ int main() {
   printf("\x1B[31m----------------------\033[0m\t\t\n");
   trees();
   printf("\n\x1B[31m----------------------\033[0m\t\t\n");
-
-  printf("\x1B[31mBINARY SEARCH TREE\033[0m\t\t\n");
-  printf("\x1B[31m----------------------\033[0m\t\t\n");
-  bst();
-  printf("\n\x1B[31m----------------------\033[0m\t\t\n");
-
 
   printf("\x1B[31mHEAP\033[0m\t\t\n");
   printf("\x1B[31m----------------------\033[0m\t\t\n");
