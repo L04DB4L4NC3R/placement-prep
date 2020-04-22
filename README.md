@@ -1,0 +1,36 @@
+* [01;34m.[00m
+    * [01;34m1#stl[00m
+        * array_algo.cpp
+        * containers.cpp
+        * main.cpp
+        * reverse_and_maxmin.cpp
+        * searchsort.cpp
+    * [01;34m2#arrays[00m
+        * k-smallest-fastest.cpp
+        * k-smallest-using-set.cpp
+        * rotate.cpp
+    * [01;34m3#data-structures[00m
+        * graph.cpp
+        * hash_table.cpp
+        * heap.cpp
+        * linked_list.cpp
+        * main.cpp
+        * stack.cpp
+        * tree.cpp
+    * [01;34m4#sorting[00m
+        * binary.cpp
+        * bubble.cpp
+        * heap.cpp
+        * insersion.cpp
+        * main.cpp
+        * merge.cpp
+        * quick.cpp
+        * radix.cpp
+        * selection.cpp
+        * sequential.cpp
+    * [01;34m5#dynamic-programming[00m
+        * fib.cpp
+        * fib+memoization.cpp
+        * lis-memoization.cpp
+
+* 5 directories, 28 files

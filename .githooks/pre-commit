@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "Generating README"
+
+# https://github.com/fivestar/mdtree
+mdtree -I 'README.md|bin' . > README.md
