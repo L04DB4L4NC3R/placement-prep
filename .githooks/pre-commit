@@ -3,4 +3,5 @@
 echo "Generating README"
 
 # https://github.com/fivestar/mdtree
-mdtree -I 'README.md|bin' . > README.md
+tree -tf --noreport -I '*~' --charset ascii $1 |
+       sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g' > README.md
