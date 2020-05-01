@@ -1,38 +1,41 @@
-* arrays
-   * k-smallest-fastest.cpp
-   * k-smallest-using-set.cpp
-   * rotate.cpp
-* bin
-   * fib
-   * lis
-* data-structures
-   * graph.cpp
-   * hash_table.cpp
-   * heap.cpp
-   * linked_list.cpp
-   * main.cpp
-   * stack.cpp
-   * tree.cpp
-* dynamic-programming
-   * edit_distance.cpp
-   * edit_distance_tabulation.cpp
-   * fib.cpp
-   * fib+memoization.cpp
-   * lis-memoization.cpp
-* sorting
-   * binary.cpp
-   * bubble.cpp
-   * heap.cpp
-   * insersion.cpp
-   * main.cpp
-   * merge.cpp
-   * quick.cpp
-   * radix.cpp
-   * selection.cpp
-   * sequential.cpp
-* stl
-    * array_algo.cpp
-    * containers.cpp
-    * main.cpp
-    * reverse_and_maxmin.cpp
-    * searchsort.cpp
+.
+ * [arrays](./arrays)
+   * [k-smallest-fastest.cpp](./arrays/k-smallest-fastest.cpp)
+   * [k-smallest-using-set.cpp](./arrays/k-smallest-using-set.cpp)
+   * [rotate.cpp](./arrays/rotate.cpp)
+ * [data-structures](./data-structures)
+   * [graph.cpp](./data-structures/graph.cpp)
+   * [hash_table.cpp](./data-structures/hash_table.cpp)
+   * [heap.cpp](./data-structures/heap.cpp)
+   * [linked_list.cpp](./data-structures/linked_list.cpp)
+   * [main.cpp](./data-structures/main.cpp)
+   * [stack.cpp](./data-structures/stack.cpp)
+   * [tree.cpp](./data-structures/tree.cpp)
+ * [sorting](./sorting)
+   * [binary.cpp](./sorting/binary.cpp)
+   * [bubble.cpp](./sorting/bubble.cpp)
+   * [heap.cpp](./sorting/heap.cpp)
+   * [insersion.cpp](./sorting/insersion.cpp)
+   * [main.cpp](./sorting/main.cpp)
+   * [merge.cpp](./sorting/merge.cpp)
+   * [quick.cpp](./sorting/quick.cpp)
+   * [radix.cpp](./sorting/radix.cpp)
+   * [selection.cpp](./sorting/selection.cpp)
+   * [sequential.cpp](./sorting/sequential.cpp)
+ * [stl](./stl)
+   * [array_algo.cpp](./stl/array_algo.cpp)
+   * [containers.cpp](./stl/containers.cpp)
+   * [main.cpp](./stl/main.cpp)
+   * [reverse_and_maxmin.cpp](./stl/reverse_and_maxmin.cpp)
+   * [searchsort.cpp](./stl/searchsort.cpp)
+ * [bin](./bin)
+   * [fib](./bin/fib)
+   * [lis](./bin/lis)
+ * [dynamic-programming](./dynamic-programming)
+   * [fib.cpp](./dynamic-programming/fib.cpp)
+   * [fib+memoization.cpp](./dynamic-programming/fib+memoization.cpp)
+   * [lis-memoization.cpp](./dynamic-programming/lis-memoization.cpp)
+   * [edit_distance.cpp](./dynamic-programming/edit_distance.cpp)
+   * [edit_distance_tabulation.cpp](./dynamic-programming/edit_distance_tabulation.cpp)
+   * [binomial_coefficients.cpp](./dynamic-programming/binomial_coefficients.cpp)
+ * [README.md](./README.md)
