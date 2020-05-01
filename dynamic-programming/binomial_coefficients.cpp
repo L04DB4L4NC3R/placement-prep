@@ -6,6 +6,7 @@
  * C(n, 0) = C(n, n) = 1
  */
 #include <iostream>
+#include <cstring> // for memset
 using namespace std;
 
 // recursive solution
@@ -25,8 +26,8 @@ int BC(int n, int k) {
 int BC_DP(int n, int k) {
 		int C[n+1][k+1];
 
-		for(int i = 0; i < n; ++i) {
-				for (int j = 0; j < min(i, k); ++j) {
+		for(int i = 0; i <= n; ++i) {
+				for (int j = 0; j <= min(i, k); ++j) {
 						if (j == 0 || j == 1) {
 								C[i][j] = 1;
 						} else {
@@ -37,8 +38,23 @@ int BC_DP(int n, int k) {
 		return C[n][k];
 }
 
+// Space optimized DP binary coefficients
+// Uses a 1D array and pascal triangle
+int BC_DP_SO(int n, int k) {
+	int C[k+1];
+	memset(C, 0, sizeof(C));
+	C[0] = 1;
+	for(int i = 1; i <= n; ++i) {
+			for(int j = min(i, k); j > 0; --j) {
+					C[j] = C[j] + C[j-1];
+			}
+	}
+	return C[k];
+}
+
 int main() {
-		cout << BC(4, 2) << endl
-		cout << BC_DP(4, 2);
+		cout << BC(4, 2) << endl;
+		cout << BC_DP(4, 2) << endl;
+		cout << BC_DP_SO(4, 2) << endl;
 		return 0;
 }
