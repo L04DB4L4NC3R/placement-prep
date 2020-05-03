@@ -1,3 +1,5 @@
+
+.
 * [arrays](arrays)
    * [k-smallest-fastest.cpp](k-smallest-fastest.cpp)
    * [k-smallest-using-set.cpp](k-smallest-using-set.cpp)
@@ -40,3 +42,5 @@
     * [main.cpp](main.cpp)
     * [reverse_and_maxmin.cpp](reverse_and_maxmin.cpp)
     * [searchsort.cpp](searchsort.cpp)
+
+6 directories, 36 files
