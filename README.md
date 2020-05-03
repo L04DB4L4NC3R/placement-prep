@@ -1,5 +1,10 @@
 
 .
+* [amazon_archives](amazon_archives)
+   * [no_of_strings.cpp](no_of_strings.cpp)
+   * [repetitive_addition.cpp](repetitive_addition.cpp)
+   * [rotate_array.cpp](rotate_array.cpp)
+   * [sorted_matrix.cpp](sorted_matrix.cpp)
 * [arrays](arrays)
    * [k-smallest-fastest.cpp](k-smallest-fastest.cpp)
    * [k-smallest-using-set.cpp](k-smallest-using-set.cpp)
@@ -24,7 +29,6 @@
    * [knapsack.cpp](knapsack.cpp)
    * [lis-memoization.cpp](lis-memoization.cpp)
 * [README.md](README.md)
-* [session.vim](session.vim)
 * [sorting](sorting)
    * [binary.cpp](binary.cpp)
    * [bubble.cpp](bubble.cpp)
@@ -43,4 +47,4 @@
     * [reverse_and_maxmin.cpp](reverse_and_maxmin.cpp)
     * [searchsort.cpp](searchsort.cpp)
 
-6 directories, 36 files
+7 directories, 39 files
