@@ -34,6 +34,8 @@
       * [sqrt.cpp](sqrt.cpp)
    * [stack](stack)
       * [fortstack.cpp](fortstack.cpp)
+   * [strings](strings)
+      * [twice_ctr.cpp](twice_ctr.cpp)
    * [trees](trees)
        * [check_for_bst.cpp](check_for_bst.cpp)
        * [evenodd_levels.cpp](evenodd_levels.cpp)
@@ -88,4 +90,4 @@
     * [reverse_and_maxmin.cpp](reverse_and_maxmin.cpp)
     * [searchsort.cpp](searchsort.cpp)
 
-14 directories, 73 files
+15 directories, 74 files
