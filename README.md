@@ -1,4 +1,3 @@
-
 .
 * [amazon_archives](amazon_archives)
    * [arrays](arrays)
@@ -8,6 +7,7 @@
       * [kth_element.cpp](kth_element.cpp)
       * [longest_conseq_subsequence.cpp](longest_conseq_subsequence.cpp)
       * [max_money.cpp](max_money.cpp)
+      * [pairsum.cpp](pairsum.cpp)
       * [rotate_array.cpp](rotate_array.cpp)
       * [sort012.cpp](sort012.cpp)
       * [sorted_matrix.cpp](sorted_matrix.cpp)
@@ -22,6 +22,9 @@
       * [intersection.cpp](intersection.cpp)
       * [ll_union.cpp](ll_union.cpp)
       * [loop_in_ll.cpp](loop_in_ll.cpp)
+      * [middle.cpp](middle.cpp)
+      * [nthnode.cpp](nthnode.cpp)
+      * [rm_loop.cpp](rm_loop.cpp)
    * [misc](misc)
       * [trie_fns.cpp](trie_fns.cpp)
    * [number_theory](number_theory)
@@ -32,9 +35,11 @@
       * [no_of_strings.cpp](no_of_strings.cpp)
       * [repetitive_addition.cpp](repetitive_addition.cpp)
       * [sqrt.cpp](sqrt.cpp)
+      * [trailofones.cpp](trailofones.cpp)
    * [stack](stack)
       * [fortstack.cpp](fortstack.cpp)
    * [strings](strings)
+      * [subsequence_pattern.cpp](subsequence_pattern.cpp)
       * [twice_ctr.cpp](twice_ctr.cpp)
    * [trees](trees)
        * [check_for_bst.cpp](check_for_bst.cpp)
@@ -45,6 +50,8 @@
        * [k_dist_tree.cpp](k_dist_tree.cpp)
        * [max_node_lvl_NOT_WORKING.cpp](max_node_lvl_NOT_WORKING.cpp)
        * [mirror_tree.cpp](mirror_tree.cpp)
+       * [nosibling.cpp](nosibling.cpp)
+       * [pathsum.cpp](pathsum.cpp)
        * [rm_halfnodes.cpp](rm_halfnodes.cpp)
        * [tree_from_traversal.cpp](tree_from_traversal.cpp)
 * [arrays](arrays)
@@ -90,4 +97,4 @@
     * [reverse_and_maxmin.cpp](reverse_and_maxmin.cpp)
     * [searchsort.cpp](searchsort.cpp)
 
-15 directories, 74 files
+15 directories, 82 files
