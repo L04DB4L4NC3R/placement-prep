@@ -1,3 +1,4 @@
+
 .
 * [amazon_archives](amazon_archives)
    * [arrays](arrays)
@@ -8,6 +9,7 @@
       * [longest_conseq_subsequence.cpp](longest_conseq_subsequence.cpp)
       * [max_money.cpp](max_money.cpp)
       * [pairsum.cpp](pairsum.cpp)
+      * [pythagorean.cpp](pythagorean.cpp)
       * [rotate_array.cpp](rotate_array.cpp)
       * [sort012.cpp](sort012.cpp)
       * [sorted_matrix.cpp](sorted_matrix.cpp)
@@ -39,6 +41,7 @@
    * [stack](stack)
       * [fortstack.cpp](fortstack.cpp)
    * [strings](strings)
+      * [balanced_paren.cpp](balanced_paren.cpp)
       * [subsequence_pattern.cpp](subsequence_pattern.cpp)
       * [twice_ctr.cpp](twice_ctr.cpp)
    * [trees](trees)
@@ -97,4 +100,4 @@
     * [reverse_and_maxmin.cpp](reverse_and_maxmin.cpp)
     * [searchsort.cpp](searchsort.cpp)
 
-15 directories, 82 files
+15 directories, 84 files
