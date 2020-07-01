@@ -1,12 +1,12 @@
 #include <iostream>
-#include "./4#sorting/sequential.cpp"
-#include "./4#sorting/bubble.cpp"
-#include "./4#sorting/selection.cpp"
-#include "./4#sorting/insersion.cpp"
-#include "./4#sorting/quick.cpp"
-#include "./4#sorting/merge.cpp"
-#include "./4#sorting/heap.cpp"
-#include "./4#sorting/radix.cpp"
+#include "sequential.cpp"
+#include "bubble.cpp"
+#include "selection.cpp"
+#include "insersion.cpp"
+#include "quick.cpp"
+#include "merge.cpp"
+#include "heap.cpp"
+#include "radix.cpp"
 #include <vector>
 using namespace std;
 
@@ -51,7 +51,7 @@ int main() {
 
   printf("\x1B[31mMERGE\033[0m\t\t\n");
   printf("\x1B[31m----------------------\033[0m\t\t\n");
-  merge(arr, 10);
+  mergesort(arr, 10);
   showarray(arr, 10);
   printf("\n\x1B[31m----------------------\033[0m\t\t\n");
 
