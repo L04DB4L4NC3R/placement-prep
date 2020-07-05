@@ -1,4 +1,4 @@
-// 2 design an algorithm to figure out if someone has won a game of tic-tac-toe.
+// 17.2 design an algorithm to figure out if someone has won a game of tic-tac-toe.
 #include <iostream>
 #define N 3
 using namespace std;

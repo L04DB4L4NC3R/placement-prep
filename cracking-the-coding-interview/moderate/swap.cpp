@@ -1,4 +1,4 @@
-// 1 Write a function to swap a number in place (that is, without temporary variables).
+// 17.1 Write a function to swap a number in place (that is, without temporary variables).
 
 #include <iostream>
 using namespace std;
