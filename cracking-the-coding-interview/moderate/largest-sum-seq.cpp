@@ -83,15 +83,10 @@ int main() {
 
 	pair<int, pair<int, int>> p = findmaxsubsequence(m);
 
-	/* int mx = *max_element(arr, arr+n);
-	if (mx > p.first) {
-		cout << mx;
-		return 0;
-	}
-	*/
-
-	for (int i = p.first; i <= p.second.second; ++i) {
+	// array elements
+	for (int i = p.second.first; i <= p.second.second; ++i) {
 		cout << arr[i] << " ";
 	}
+	cout << p.first; // max sum
 	return 0;
 }
