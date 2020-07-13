@@ -119,5 +119,6 @@
    * [twos.cpp](./cracking-the-coding-interview/hard/twos.cpp)
    * [add.cpp](./cracking-the-coding-interview/hard/add.cpp)
    * [word_distance.cpp](./cracking-the-coding-interview/hard/word_distance.cpp)
- * [treemd](./treemd)
+   * [longest_word.cpp](./cracking-the-coding-interview/hard/longest_word.cpp)
+   * [suffix_tree.cpp](./cracking-the-coding-interview/hard/suffix_tree.cpp)
  * [README.md](./README.md)
